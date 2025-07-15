@@ -1,0 +1,245 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+nav {
+  background: #34495e;
+  padding: 16px 0;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* Products Page */
+.products-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(52, 73, 94, 0.08);
+  padding: 32px;
+}
+
+.products-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.product-card {
+  background: #f9fafc;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(44, 62, 80, 0.07);
+  padding: 18px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.13);
+}
+
+.product-card h3 {
+  color: #2980b9;
+  margin-bottom: 8px;
+}
+
+.product-card p {
+  color: #555;
+  margin: 6px 0;
+}
+
+.product-card img {
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #eee;
+}
+
+.product-add-btn {
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.product-add-btn:hover {
+  background: #219150;
+}
+
+/* Cart Page */
+.cart-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+}
+
+.cart-title {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-details {
+  flex: 1;
+}
+
+.cart-remove-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cart-remove-btn:hover {
+  background: #c0392b;
+}
+
+.cart-clear-btn {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: background 0.2s;
+  display: block;
+  margin-left: auto;
+}
+
+.cart-clear-btn:hover {
+  background: #217dbb;
+}
+
+/* Login Page */
+.login-form {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(52, 73, 94, 0.08);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-form h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.login-form button {
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.login-form button:hover {
+  background: #219150;
+}
+
+/* Admin Page */
+.admin-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(52, 73, 94, 0.08);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.admin-container h2 {
+  color: #8e44ad;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.admin-container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.admin-container button {
+  background: #8e44ad;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.admin-container button:hover {
+  background: #6c3483;
+}
