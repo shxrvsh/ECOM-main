@@ -27,7 +27,7 @@
           <stringProp name="dbUrl">jdbc:mysql://localhost:3306/ecommerce</stringProp>
           <stringProp name="driver">com.mysql.cj.jdbc.Driver</stringProp>
           <stringProp name="username">root</stringProp>
-          <stringProp name="password"></stringProp>
+          <stringProp name="password">19122004</stringProp>
           <stringProp name="poolMax">10</stringProp>
           <stringProp name="timeout">10000</stringProp>
           <boolProp name="autocommit">true</boolProp>
@@ -67,7 +67,7 @@
           <stringProp name="resultSetHandler">Store as String</stringProp>
         </JDBCSampler>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Insert into Cart">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Insert into Cart" enabled="true">
           <stringProp name="dataSource">mydb</stringProp>
           <stringProp name="queryType">Update Statement</stringProp>
           <stringProp name="query">INSERT INTO cart (user_id, product_id, quantity) VALUES (101, 1, 2);</stringProp>
@@ -80,7 +80,7 @@
           <stringProp name="resultSetHandler">Store as String</stringProp>
         </JDBCSampler>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Select Cart">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Select Cart" enabled="true">
           <stringProp name="dataSource">mydb</stringProp>
           <stringProp name="queryType">Select Statement</stringProp>
           <stringProp name="query">SELECT * FROM cart WHERE user_id=101;</stringProp>
@@ -93,7 +93,7 @@
           <stringProp name="resultSetHandler">Store as String</stringProp>
         </JDBCSampler>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Delete from Cart">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Delete from Cart" enabled="true">
           <stringProp name="dataSource">mydb</stringProp>
           <stringProp name="queryType">Update Statement</stringProp>
           <stringProp name="query">DELETE FROM cart WHERE user_id=101;</stringProp>

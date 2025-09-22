@@ -21,3 +21,5 @@ app.listen(PORT,'0.0.0.0', () => {
   console.log('✅ Connected to MySQL!');
   console.log(`🚀 Backend running on port ${PORT}`);
 });
+
+module.exports = app; 
